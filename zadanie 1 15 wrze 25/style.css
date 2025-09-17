@@ -1,0 +1,138 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.glowny
+{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.naglowek
+{
+    width: 100%;
+    height: 100px;
+    background-color: #a9a9a9;
+}
+
+.srodek
+{
+    width: 100%;
+    height: 56.8%;
+    background-color: #bdb76b;
+
+}
+
+.dol
+{
+    width: 100%;
+    height: 100px;
+    background-color: #a9a9a9;
+    align-items: center;
+    text-align: center;
+}
+
+.button
+{
+    background-color:#adff00;
+    cursor: pointer;
+    padding:  10px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.button:hover
+{
+    background-color:white;
+    cursor: pointer;
+    justify-content: right;
+    align-items: center;
+}
+
+.logo
+{
+    height: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.lewy
+{
+    
+    height: 100%;
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+
+
+.prawy
+{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font: bold;
+    height: 100%;
+    width: 60%;
+    max-width: 500px;
+    max-height: 525px;
+    left: 100px;
+    padding-left: 150px;
+}
+
+.profesjonalny_technik_bica_zony_mlotkiem
+{
+    object-position: left;
+    object-fit: cover;
+    height: 350px;
+    width: 525px;  /*jebie mnie twoje 300px */
+    float: left;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 300px;
+}
+
+.uslugi
+{
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+.pierdolniki
+{
+    align-items: center;
+    text-align: center;
+    float: right;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 1450px;
+}
+
+.button2
+{
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    margin: 10px;
+}
+
+.button2:hover
+{
+    background-color:black ;
+    color: white;
+}
